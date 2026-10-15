@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>VELZAR | اکسسوری مینیمال و لوکس</title>
+<meta name="description" content="VELZAR؛ اکسسوری مینیمال و مدرن. More Than Accessories, It's a Lifestyle.">
+<meta property="og:title" content="VELZAR">
+<meta property="og:description" content="اکسسوری مینیمال و مدرن">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;600;800&display=swap">
+<style>
+:root{--b:#0e0e0f;--c:#17171a;--l:#2c2c30;--g:#C9B58A;--i:#F2ECDD;--m:#a39d90;color-scheme:dark;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*{box-sizing:border-box;margin:0}
+body{background:var(--b);color:var(--i);font-family:"Vazirmatn",Tahoma,sans-serif;line-height:1.9;font-weight:400}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);background:var(--b);z-index:60}
+a{color:inherit;text-decoration:none}button,input,select,textarea{font:inherit;color:inherit}
+:focus-visible{outline:2px solid var(--g);outline-offset:3px}
+.w{max-width:1100px;margin:0 auto;padding:0 20px}
+header{position:sticky;top:env(safe-area-inset-top,0px);z-index:50;background:rgba(14,14,15,.94);border-bottom:1px solid var(--l)}
+.hd{display:flex;align-items:center;justify-content:space-between;height:64px}
+.logo{font-weight:800;letter-spacing:.32em;font-size:19px;color:var(--g);direction:ltr}
+nav{display:flex;gap:26px;font-size:14px}nav a{color:var(--m)}nav a:hover{color:var(--g)}
+.ic{display:flex;gap:14px;align-items:center}
+.btn{background:none;border:1px solid var(--g);color:var(--g);padding:6px 20px;cursor:pointer;transition:.2s;font-size:14px}
+.btn:hover:not(:disabled){background:var(--g);color:var(--b)}.btn:disabled{opacity:.4;cursor:not-allowed}
+.btn.f{background:var(--g);color:var(--b)}.btn.f:hover:not(:disabled){background:var(--i);border-color:var(--i)}
+.bar{background:var(--g);color:var(--b);text-align:center;font-size:13px;padding:4px}
+.burger{display:none}
+@media(max-width:720px){nav{display:none;position:absolute;top:64px;inset-inline:0;background:var(--b);flex-direction:column;padding:16px 20px;border-bottom:1px solid var(--l)}nav.on{display:flex}.burger{display:block}.hide-m{display:none}}
+.hero{padding:96px 0 72px;border-bottom:1px solid var(--l)}
+.hero h1{font-weight:300;font-size:clamp(30px,6vw,60px);line-height:1.4;max-width:16ch}
+.hero p{color:var(--m);max-width:44ch;margin:16px 0 28px}
+.tag{direction:ltr;text-align:right;color:var(--g);letter-spacing:.12em;font-size:12px;margin-top:28px}
+h2.s{font-weight:300;font-size:26px;margin:56px 0 20px;display:flex;justify-content:space-between;align-items:baseline}
+h2.s a{font-size:13px;color:var(--g)}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:24px 16px}
+.art{aspect-ratio:4/5;background:var(--c);border:1px solid var(--l);display:grid;place-items:center;overflow:hidden;color:var(--l);font-weight:800;font-size:40px;letter-spacing:.2em;direction:ltr;position:relative}
+.art img{width:100%;height:100%;object-fit:cover;transition:transform .5s}.card:hover img{transform:scale(1.04)}
+.card h3{font-size:15px;font-weight:400;margin-top:10px}.pr{color:var(--g);font-size:14px}.old{color:var(--m);text-decoration:line-through;font-size:12px;margin-inline-start:6px}
+.st{font-size:12px;color:var(--m)}.st.lo{color:#d6a35c}.st.no{color:#c46a6a}
+.row{display:flex;justify-content:space-between;align-items:center;gap:8px;flex-wrap:wrap}
+.chips{display:flex;gap:8px;flex-wrap:wrap;margin:12px 0}.chip{background:none;border:1px solid var(--l);color:var(--m);padding:2px 14px;cursor:pointer;font-size:13px}.chip.on{border-color:var(--g);color:var(--g)}
+.tools{display:flex;gap:12px;flex-wrap:wrap;margin:28px 0 8px}
+input,select,textarea{background:var(--c);border:1px solid var(--l);padding:8px 12px;width:100%;border-radius:0}
+input:focus,select:focus,textarea:focus{border-color:var(--g);outline:none}
+.tools>*{width:auto;flex:1;min-width:140px}
+label{display:block;font-size:13px;color:var(--m);margin:12px 0 4px}
+.err{color:#d98a8a;font-size:12px;min-height:18px}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:40px}@media(max-width:760px){.two{grid-template-columns:1fr;gap:24px}}
+.box{border:1px solid var(--l);background:var(--c);padding:20px}
+.line{display:flex;gap:12px;align-items:center;padding:12px 0;border-bottom:1px solid var(--l)}.line .nm{flex:1;font-size:14px}
+.q{display:flex;gap:10px;align-items:center}.q button{width:28px;height:28px;background:none;border:1px solid var(--l);cursor:pointer}
+.th{width:56px}.th .art{font-size:12px}
+.tot{display:flex;justify-content:space-between;padding:6px 0}.tot.b{border-top:1px solid var(--g);margin-top:8px;padding-top:12px;color:var(--g);font-weight:600}
+.tl{list-style:none;padding:0;border-inline-start:1px solid var(--g);margin:12px 8px}.tl li{padding:0 18px 14px;position:relative}.tl li::before{content:"";position:absolute;inset-inline-start:-4px;top:12px;width:7px;height:7px;background:var(--g);border-radius:50%}
+.note{color:var(--m);font-size:13px}.card-no{font-size:22px;letter-spacing:.12em;direction:ltr;text-align:center;color:var(--g);padding:14px 0}
+.warn{border:1px solid #6b5a3a;background:#1d1a14;padding:10px 14px;font-size:13px;color:#d9c9a0;margin:12px 0}
+footer{border-top:1px solid var(--l);margin-top:80px;padding:36px 0;color:var(--m);font-size:13px}
+.toast{position:fixed;bottom:calc(20px + env(safe-area-inset-bottom,0px));left:50%;transform:translateX(-50%);background:var(--g);color:var(--b);padding:8px 20px;z-index:70;font-size:14px}
+table{width:100%;border-collapse:collapse;font-size:13px}th,td{padding:8px;border-bottom:1px solid var(--l);text-align:start}
+.ad{display:grid;grid-template-columns:180px 1fr;gap:28px;padding-top:24px}@media(max-width:760px){.ad{grid-template-columns:1fr}.ad aside{display:flex;gap:6px;flex-wrap:wrap}}
+.ad aside button{display:block;width:100%;text-align:start;background:none;border:0;border-bottom:1px solid var(--l);color:var(--m);padding:8px 0;cursor:pointer}.ad aside button.on{color:var(--g)}
+.kp{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:12px}.kp div{border:1px solid var(--l);padding:12px}.kp b{display:block;font-size:22px;color:var(--g);font-weight:600}
+.pol{white-space:pre-line;color:var(--m)}
+@media(prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+</head>
+<body>
+<div id="bar" class="bar" hidden></div>
+<header><div class="w hd">
+  <a href="#/" class="logo" aria-label="VELZAR">VELZAR</a>
+  <nav id="nav"><a href="#/">خانه</a><a href="#/shop">فروشگاه</a><a href="#/shop">دسته‌بندی‌ها</a><a href="#/about">درباره ما</a><a href="#/contact">تماس</a><a href="#/track">پیگیری سفارش</a></nav>
+  <div class="ic"><a href="#/shop" class="btn hide-m">جستجو</a><a href="#/cart" class="btn" id="cb">سبد (۰)</a><button class="btn burger" data-a="nav" aria-label="منو">منو</button></div>
+</div></header>
+<main id="app" class="w"></main>
+<footer><div class="w"><span class="logo" style="font-size:15px">VELZAR</span>
+<p id="ft" style="margin-top:10px"></p><p style="margin-top:6px"><a href="#/policy/privacy">حریم خصوصی</a> · <a href="#/policy/terms">شرایط خرید</a> · <a href="#/policy/shipping">ارسال</a> · <a href="#/policy/returns">مرجوعی</a> · <a href="#/policy/payment">پرداخت</a> · <a href="#/admin">مدیریت</a></p></div></footer>
+<script>
+const $=s=>document.querySelector(s),fa=n=>(+n).toLocaleString('fa-IR'),T=n=>fa(n)+' تومان';
+const e=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const en=s=>String(s).replace(/[۰-۹]/g,d=>'۰۱۲۳۴۵۶۷۸۹'.indexOf(d)).replace(/[٠-٩]/g,d=>'٠١٢٣٤٥٦٧٨٩'.indexOf(d));
+const ST={awaiting_payment:'در انتظار پرداخت',awaiting_receipt_review:'در انتظار بررسی رسید',payment_confirmed:'پرداخت تأیید شد',processing:'در حال آماده‌سازی',shipped:'ارسال شد',delivered:'تحویل داده شد',cancelled:'لغو شد',payment_rejected:'پرداخت تأیید نشد'};
+const PAID=['payment_confirmed','processing','shipped','delivered'];
+function seed(){const P=(id,name,cat,price,stock,v,x={})=>({id,name,cat,price,disc:0,stock,sku:'DEMO-'+id,desc:'محصول نمونه آزمایشی؛ از پنل مدیریت ویرایش یا حذف کنید.',variants:v,pub:true,feat:id<4,isnew:id>5,img:'',...x});
+return{products:[P(1,'انگشتر مینیمال','انگشتر',1850000,6,'سایز ۱۶,سایز ۱۷,سایز ۱۸'),P(2,'دستبند زنجیری','دستبند',1250000,10,'نقره‌ای,شامپاینی'),P(3,'گردنبند تک‌پلاک','گردنبند',1450000,3,'',{disc:10}),P(4,'گوشواره حلقه‌ای','گوشواره',980000,12,''),P(5,'بند ساعت چرمی','ساعت',750000,0,'مشکی,قهوه‌ای'),P(6,'دکمه سردست','آقایان',1100000,8,''),P(7,'جاکلیدی چرمی','لوازم',420000,20,''),P(8,'کیف کارت','لوازم',690000,15,'مشکی')],
+orders:[],set:{name:'VELZAR',tag:"More Than Accessories — It's a Lifestyle.",card:'',holder:'',tg:'Admin_Velzar',ig:'Admin_Velzar',ei:'Admin_Velzar',promise:'پس از تأیید پرداخت، سفارش شما حداکثر طی ۲۴ ساعت برای ارسال آماده می‌شود.',ship:0,eta:'',ann:'',hero:'اکسسوری، فراتر از یک اکسسوری',heroSub:'طراحی مینیمال، جنس باکیفیت و جزئیاتی که به چشم می‌آید.',about:'VELZAR یک برند اکسسوری مینیمال و مدرن است. این متن را از پنل مدیریت ویرایش کنید.',contact:'برای پیگیری سفارش از پیام‌رسان‌های زیر پیام بدهید.',foot:'© VELZAR',
+pol:{privacy:'اطلاعات شما فقط برای ثبت و ارسال سفارش استفاده می‌شود. (متن را ویرایش کنید)',terms:'ثبت سفارش به معنی پذیرش شرایط خرید است. (متن را ویرایش کنید)',shipping:'سفارش پس از تأیید پرداخت آماده‌سازی و سپس به شرکت حمل تحویل می‌شود. زمان رسیدن به دست شما به شرکت حمل بستگی دارد. (متن را ویرایش کنید)',returns:'شرایط مرجوعی و تعویض را اینجا بنویسید.',payment:'پرداخت کارت‌به‌کارت است و فقط پس از بررسی ادمین تأیید می‌شود. (متن را ویرایش کنید)'}}}}
+let DB,CART={};
+try{DB=JSON.parse(localStorage.getItem('vz'))}catch(_){}try{CART=JSON.parse(localStorage.getItem('vzc'))||{}}catch(_){}
+DB=DB||seed();
+const save=()=>{try{localStorage.setItem('vz',JSON.stringify(DB));localStorage.setItem('vzc',JSON.stringify(CART))}catch(_){toast('ذخیره‌سازی مرورگر فعال نیست')}};
+function toast(m){const t=document.createElement('div');t.className='toast';t.textContent=m;document.body.append(t);setTimeout(()=>t.remove(),2600)}
+const eff=p=>Math.round(p.price*(100-(p.disc||0))/100),byId=id=>DB.products.find(p=>p.id==id);
+const now=()=>new Date().toLocaleString('fa-IR');
+const rnd=(n,al)=>Array.from(crypto.getRandomValues(new Uint8Array(n)),b=>al[b%al.length]).join('');
+function release(o){if(o.rel)return;o.rel=1;o.items.forEach(i=>{const p=byId(i.pid);if(p)p.stock+=i.qty})}
+function setSt(o,s,by,note){o.status=s;o.hist.push({s,t:now(),by,note:note||''});if(s==='cancelled'||s==='payment_rejected')release(o)}
+DB.orders.forEach(o=>{if(o.status==='awaiting_payment'&&Date.now()-o.ts>864e5){setSt(o,'cancelled','سیستم','انقضای ۲۴ ساعته');}});save();
+const S={q:'',cat:'',max:'',sort:'new',n:8};
+const stock=p=>p.stock<=0?'<span class="st no">ناموجود</span>':p.stock<=3?`<span class="st lo">فقط ${fa(p.stock)} عدد</span>`:'<span class="st">موجود</span>';
+const art=p=>`<div class="art">${p.img?`<img src="${e(p.img)}" alt="${e(p.name)}" loading="lazy">`:'VZ'}</div>`;
+const card=p=>`<article class="card"><a href="#/p/${p.id}">${art(p)}<h3>${e(p.name)}</h3></a><div class="row"><span class="pr">${T(eff(p))}${p.disc?`<span class="old">${T(p.price)}</span>`:''}</span>${stock(p)}</div>${p.stock>0&&!p.variants?`<button class="btn" style="margin-top:8px;width:100%" data-a="add" data-id="${p.id}">افزودن به سبد</button>`:`<a class="btn" style="display:block;text-align:center;margin-top:8px" href="#/p/${p.id}">مشاهده</a>`}</article>`;
+const live=()=>DB.products.filter(p=>p.pub);
+const cartLines=()=>Object.entries(CART).map(([k,q])=>{const[id,v]=k.split('|');const p=byId(id);return p&&p.pub?{k,p,v,q}:null}).filter(Boolean);
+const ship=()=>+DB.set.ship||0;
+function best(){const c={};DB.orders.filter(o=>PAID.includes(o.status)).forEach(o=>o.items.forEach(i=>c[i.pid]=(c[i.pid]||0)+i.qty));return live().filter(p=>c[p.id]).sort((a,b)=>c[b.id]-c[a.id]).slice(0,4)}
+const P={};
+P.home=()=>{const s=DB.set,f=live().filter(p=>p.feat).slice(0,4),n=live().filter(p=>p.isnew).slice(0,4),b=best(),cats=[...new Set(live().map(p=>p.cat).filter(Boolean))];
+return`<section class="hero"><h1>${e(s.hero)}</h1><p>${e(s.heroSub)}</p><a class="btn f" href="#/shop">مشاهده محصولات</a><div class="tag">${e(s.tag)}</div></section>
+${f.length?`<h2 class="s">محصولات منتخب</h2><div class="grid">${f.map(card).join('')}</div>`:''}
+${n.length?`<h2 class="s">تازه‌ها</h2><div class="grid">${n.map(card).join('')}</div>`:''}
+${b.length?`<h2 class="s">پرفروش‌ها</h2><div class="grid">${b.map(card).join('')}</div>`:''}
+<h2 class="s">دسته‌بندی‌ها</h2><div class="chips">${cats.map(c=>`<a class="chip" href="#/shop/${encodeURIComponent(c)}">${e(c)}</a>`).join('')}</div>
+<h2 class="s">درباره VELZAR</h2><p class="pol" style="max-width:60ch">${e(s.about)}</p>
+<h2 class="s">ارسال و پشتیبانی</h2><div class="box"><p>${e(s.promise)}</p><p class="note">آماده‌سازی سفارش، تحویل به شرکت حمل و رسیدن بسته به دست شما سه مرحله جدا هستند.${s.eta?' '+e(s.eta):''}</p></div>`};
+P.shop=c=>{if(c)S.cat=decodeURIComponent(c);const cats=[...new Set(live().map(p=>p.cat).filter(Boolean))];
+return`<h2 class="s">فروشگاه</h2><div class="tools"><input data-f="q" type="search" placeholder="جستجوی نام محصول" aria-label="جستجو" value="${e(S.q)}"><input data-f="max" type="number" min="0" placeholder="سقف قیمت (تومان)" aria-label="سقف قیمت" value="${e(S.max)}"><select data-f="sort" aria-label="مرتب‌سازی"><option value="new">جدیدترین</option><option value="lo">ارزان‌ترین</option><option value="hi">گران‌ترین</option><option value="pop">محبوب‌ترین</option></select></div>
+<div class="chips" id="cc"></div><div class="grid" id="g"></div><div style="text-align:center;margin-top:28px" id="more"></div>`};
+function shopGrid(){if(!$('#g'))return;const cats=[...new Set(live().map(p=>p.cat).filter(Boolean))];
+$('#cc').innerHTML=['',...cats].map(c=>`<button class="chip ${S.cat===c?'on':''}" data-a="cat" data-v="${e(c)}">${c?e(c):'همه'}</button>`).join('');
+$('[data-f=sort]').value=S.sort;const pop={};DB.orders.filter(o=>PAID.includes(o.status)).forEach(o=>o.items.forEach(i=>pop[i.pid]=(pop[i.pid]||0)+i.qty));
+let l=live().filter(p=>(!S.cat||p.cat===S.cat)&&p.name.includes(S.q.trim())&&(!S.max||eff(p)<=+S.max));
+l.sort((a,b)=>S.sort==='lo'?eff(a)-eff(b):S.sort==='hi'?eff(b)-eff(a):S.sort==='pop'?(pop[b.id]||0)-(pop[a.id]||0):b.id-a.id);
+$('#g').innerHTML=l.length?l.slice(0,S.n).map(card).join(''):'<p class="note">محصولی با این مشخصات پیدا نشد.</p>';
+$('#more').innerHTML=l.length>S.n?'<button class="btn" data-a="more">نمایش بیشتر</button>':''}
+P.p=id=>{const p=byId(id);if(!p||!p.pub)return'<p class="note" style="padding:60px 0">این محصول پیدا نشد. <a href="#/shop" style="color:var(--g)">بازگشت به فروشگاه</a></p>';
+const v=p.variants?p.variants.split(',').map(x=>x.trim()).filter(Boolean):[],rel=live().filter(x=>x.cat===p.cat&&x.id!==p.id).slice(0,4);
+return`<div class="two" style="padding-top:32px"><div>${art(p)}</div><div><h1 style="font-weight:300;font-size:28px">${e(p.name)}</h1><p class="pr" style="font-size:20px;margin:8px 0">${T(eff(p))}${p.disc?`<span class="old">${T(p.price)}</span>`:''}</p>${stock(p)}<p class="pol" style="margin:16px 0">${e(p.desc)}</p>
+${v.length?`<label for="vr">گزینه</label><select id="vr">${v.map(x=>`<option>${e(x)}</option>`).join('')}</select>`:''}
+<label for="qt">تعداد</label><input id="qt" type="number" min="1" max="${p.stock}" value="1" style="width:100px"><div style="margin-top:20px"><button class="btn f" data-a="add" data-id="${p.id}" data-pg="1" ${p.stock<=0?'disabled':''}>${p.stock<=0?'ناموجود':'افزودن به سبد'}</button></div>
+<p class="note" style="margin-top:16px">${e(DB.set.promise)} مراحل آماده‌سازی، تحویل به حمل‌کننده و تحویل نهایی جدا هستند.</p></div></div>
+${rel.length?`<h2 class="s">محصولات مرتبط</h2><div class="grid">${rel.map(card).join('')}</div>`:''}`};
+P.cart=()=>{const L=cartLines();if(!L.length)return'<p class="note" style="padding:60px 0">سبد خرید خالی است. <a href="#/shop" style="color:var(--g)">مشاهده محصولات</a></p>';
+const sub=L.reduce((s,l)=>s+eff(l.p)*l.q,0),bad=L.some(l=>l.q>l.p.stock);
+return`<h2 class="s">سبد خرید</h2><div class="two"><div>${L.map(l=>`<div class="line"><div class="th">${art(l.p)}</div><div class="nm">${e(l.p.name)}${l.v?' · '+e(l.v):''}<br><span class="pr">${T(eff(l.p))}</span>${l.q>l.p.stock?`<br><span class="err">موجودی کافی نیست (${fa(l.p.stock)} عدد)</span>`:''}</div><div class="q"><button data-a="qty" data-k="${e(l.k)}" data-d="-1" aria-label="کم">−</button>${fa(l.q)}<button data-a="qty" data-k="${e(l.k)}" data-d="1" aria-label="زیاد">+</button></div><button class="chip" data-a="rm" data-k="${e(l.k)}">حذف</button></div>`).join('')}</div>
+<div class="box"><div class="tot"><span>جمع محصولات</span><span>${T(sub)}</span></div><div class="tot"><span>هزینه ارسال</span><span>${ship()?T(ship()):'تعیین نشده'}</span></div><div class="tot b"><span>مبلغ نهایی</span><span>${T(sub+ship())}</span></div>
+<a class="btn f" style="display:block;text-align:center;margin-top:16px;${bad?'pointer-events:none;opacity:.4':''}" href="#/checkout">ادامه و ثبت سفارش</a></div></div>`};
+const F=(id,l,x='')=>`<label for="${id}">${l}</label><input id="${id}" name="${id}" ${x}><div class="err" id="e_${id}"></div>`;
+P.checkout=()=>{const L=cartLines();if(!L.length){location.hash='#/cart';return''}const sub=L.reduce((s,l)=>s+eff(l.p)*l.q,0);
+return`<h2 class="s">ثبت سفارش</h2><div class="two"><form data-form="order" novalidate>${F('name','نام و نام خانوادگی','required autocomplete="name"')}${F('phone','شماره موبایل','required inputmode="tel" placeholder="09123456789" autocomplete="tel"')}${F('prov','استان','required')}${F('city','شهر','required')}<label for="addr">آدرس کامل</label><textarea id="addr" name="addr" rows="3" required></textarea><div class="err" id="e_addr"></div>${F('post','کد پستی (اختیاری)','inputmode="numeric"')}<label for="notes">توضیحات سفارش</label><textarea id="notes" name="notes" rows="2"></textarea>
+<label style="display:flex;gap:8px;align-items:center;margin-top:16px"><input type="checkbox" id="ok" style="width:auto"> شرایط خرید و ارسال را می‌پذیرم</label><div class="err" id="e_ok"></div><button class="btn f" id="sb" style="margin-top:10px;width:100%">ثبت سفارش</button></form>
+<div class="box"><h3 style="font-weight:400;margin-bottom:8px">خلاصه سفارش</h3>${L.map(l=>`<div class="tot"><span>${e(l.p.name)}${l.v?' · '+e(l.v):''} × ${fa(l.q)}</span><span>${T(eff(l.p)*l.q)}</span></div>`).join('')}<div class="tot"><span>ارسال</span><span>${ship()?T(ship()):'—'}</span></div><div class="tot b"><span>جمع</span><span>${T(sub+ship())}</span></div><p class="note" style="margin-top:12px">پرداخت: کارت‌به‌کارت، در مرحله بعد.</p></div></div>`};
+function tl(o){return`<ul class="tl">${o.hist.map(h=>`<li><b>${ST[h.s]}</b><br><span class="note">${e(h.t)}${h.note?' · '+e(h.note):''}</span></li>`).join('')}</ul>`}
+function summary(o){return`سفارش ${o.no}\n`+o.items.map(i=>`${i.name}${i.v?' ('+i.v+')':''} × ${i.qty}`).join('\n')+`\nمبلغ: ${T(o.total)}\nنام: ${o.cust.name}`}
+P.order=code=>{const o=DB.orders.find(x=>x.code===code);if(!o)return'<p class="note" style="padding:60px 0">سفارشی با این کد در این مرورگر پیدا نشد. <a href="#/track" style="color:var(--g)">پیگیری با کد</a></p>';const s=DB.set;
+return`<h2 class="s">سفارش ${e(o.no)}</h2><div class="two"><div><div class="box"><b>${ST[o.status]}</b><p class="note">کد پیگیری: <span style="direction:ltr;display:inline-block;color:var(--g)">${e(o.code)}</span> (آن را نگه دارید)</p>${tl(o)}${o.carrier?`<p class="note">حمل‌کننده: ${e(o.carrier)} · کد رهگیری: ${e(o.trk)}</p>`:''}</div>
+<div class="box" style="margin-top:16px">${o.items.map(i=>`<div class="tot"><span>${e(i.name)}${i.v?' · '+e(i.v):''} × ${fa(i.qty)}</span><span>${T(i.price*i.qty)}</span></div>`).join('')}<div class="tot b"><span>جمع</span><span>${T(o.total)}</span></div></div></div>
+<div>${o.status==='awaiting_payment'||o.status==='awaiting_receipt_review'?`<div class="box"><h3 style="font-weight:400">پرداخت کارت‌به‌کارت</h3>${s.card?`<div class="card-no">${e(s.card)}</div><p style="text-align:center">به نام ${e(s.holder)}</p>`:'<p class="warn">شماره کارت هنوز در تنظیمات فروشگاه ثبت نشده است.</p>'}<p style="text-align:center">مبلغ: <b class="pr">${T(o.total)}</b><br>شماره سفارش: ${e(o.no)}</p>
+${s.card?`<button class="btn" style="width:100%;margin:8px 0" data-a="copy" data-v="${e(s.card)}">کپی شماره کارت</button>`:''}
+${o.status==='awaiting_payment'?`<button class="btn f" style="width:100%" data-a="paid" data-c="${e(o.code)}">پرداخت را انجام دادم</button><p class="note" style="margin-top:8px">با این دکمه فقط اعلام می‌کنید که پرداخت کرده‌اید؛ پرداخت تا بررسی تراکنش بانکی توسط ادمین تأیید نمی‌شود.</p>`:`<p class="warn">اعلام شما ثبت شد و سفارش در انتظار بررسی است. رسید را باید خودتان در یکی از پیام‌رسان‌های زیر ضمیمه و ارسال کنید.</p><div class="row"><button class="btn" data-a="msg" data-k="tg" data-c="${e(o.code)}">تلگرام</button><button class="btn" data-a="msg" data-k="ig" data-c="${e(o.code)}">اینستاگرام</button><button class="btn" data-a="msg" data-k="ei" data-c="${e(o.code)}">ایتا</button></div><p class="note" style="margin-top:8px">اگر پیام آماده باز نشد، خلاصه سفارش کپی می‌شود و می‌توانید آن را دستی بچسبانید.</p>`}</div>`:''}
+<p class="note" style="margin-top:16px">${e(s.promise)}</p></div></div>`};
+P.track=()=>`<h2 class="s">پیگیری سفارش</h2><form data-form="track" style="max-width:420px"><label for="tc">کد پیگیری</label><input id="tc" style="direction:ltr" required><button class="btn f" style="margin-top:12px">نمایش وضعیت</button></form><p class="note" style="margin-top:12px">سفارش‌ها فقط با کد پیگیری نمایش داده می‌شوند.</p>`;
+P.about=()=>`<h2 class="s">درباره ما</h2><p class="pol" style="max-width:60ch">${e(DB.set.about)}</p>`;
+P.contact=()=>{const s=DB.set;return`<h2 class="s">تماس</h2><p class="pol">${e(s.contact)}</p><div class="row" style="justify-content:flex-start;gap:12px;margin-top:16px"><a class="btn" href="https://t.me/${e(s.tg)}" target="_blank" rel="noopener">تلگرام @${e(s.tg)}</a><a class="btn" href="https://instagram.com/${e(s.ig)}" target="_blank" rel="noopener">اینستاگرام @${e(s.ig)}</a><a class="btn" href="https://eitaa.com/${e(s.ei)}" target="_blank" rel="noopener">ایتا @${e(s.ei)}</a></div>`};
+P.policy=k=>{const n={privacy:'حریم خصوصی',terms:'شرایط خرید',shipping:'ارسال و تحویل',returns:'مرجوعی و تعویض',payment:'پرداخت و تأیید سفارش'};return`<h2 class="s">${n[k]||'قوانین'}</h2><p class="pol" style="max-width:62ch">${e(DB.set.pol[k]||'')}</p>`};
+/* ---------- admin ---------- */
+const A={tab:'dash',sel:null,edit:null,del:null,fo:'',fails:0,lock:0};
+const hash=async(pw,salt)=>Array.from(new Uint8Array(await crypto.subtle.digest('SHA-256',new TextEncoder().encode(salt+pw))),b=>b.toString(16).padStart(2,'0')).join('');
+const authed=()=>sessionStorage.getItem('vza')==='1';
+P.admin=()=>{if(!authed())return`<h2 class="s">ورود مدیریت</h2><form data-form="login" style="max-width:380px"><div class="warn">${DB.adm?'':'اولین ورود: یک رمز عبور قوی برای مدیریت تعیین کنید (حداقل ۸ کاراکتر).'}</div><label for="pw">رمز عبور</label><input id="pw" type="password" autocomplete="${DB.adm?'current-password':'new-password'}" required><div class="err" id="e_pw"></div><button class="btn f" style="width:100%">${DB.adm?'ورود':'تعیین رمز و ورود'}</button></form>`;
+const O=DB.orders,tabs={dash:'داشبورد',ord:'سفارش‌ها',prod:'محصولات',set:'تنظیمات'};
+return`<div class="ad"><aside>${Object.entries(tabs).map(([k,v])=>`<button class="${A.tab===k?'on':''}" data-a="tab" data-v="${k}">${v}</button>`).join('')}<button data-a="logout">خروج</button></aside><section>${adm[A.tab]()}</section></div>`};
+const adm={};
+adm.dash=()=>{const O=DB.orders,c=s=>O.filter(o=>s.includes(o.status)).length,rev=O.filter(o=>PAID.includes(o.status)).reduce((s,o)=>s+o.total,0),low=DB.products.filter(p=>!p.archived&&p.stock<=3);
+return`<div class="warn">این نسخه بدون سرور است: سفارش‌ها و تغییرات فقط در همین مرورگر ذخیره می‌شوند و سفارش مشتری‌ها در دستگاه خودشان می‌ماند. برای فروش واقعی به پشتیبان (Supabase) نیاز است.</div><div class="kp"><div>کل سفارش‌ها<b>${fa(O.length)}</b></div><div>در انتظار بررسی رسید<b>${fa(c(['awaiting_receipt_review']))}</b></div><div>پرداخت تأییدشده<b>${fa(c(PAID))}</b></div><div>در حال آماده‌سازی<b>${fa(c(['processing']))}</b></div><div>ارسال‌شده<b>${fa(c(['shipped']))}</b></div><div>درآمد تأییدشده<b style="font-size:15px">${T(rev)}</b></div></div><h3 style="font-weight:400;margin:24px 0 8px">کم‌موجودی</h3>${low.length?low.map(p=>`<div class="tot"><span>${e(p.name)}</span><span>${fa(p.stock)}</span></div>`).join(''):'<p class="note">موردی نیست.</p>'}`};
+adm.ord=()=>{const o=DB.orders.find(x=>x.code===A.sel);if(o)return`<button class="chip" data-a="sel" data-v="">بازگشت</button><h3 style="font-weight:400;margin:12px 0">${e(o.no)} · ${ST[o.status]}</h3><div class="box"><p>${e(o.cust.name)} · ${e(o.cust.phone)}<br>${e(o.cust.prov)}، ${e(o.cust.city)}، ${e(o.cust.addr)} ${e(o.cust.post)}</p><p class="note">${e(o.cust.notes)}</p>${o.items.map(i=>`<div class="tot"><span>${e(i.name)} ${e(i.v)} × ${fa(i.qty)}</span><span>${T(i.price*i.qty)}</span></div>`).join('')}<div class="tot b"><span>جمع</span><span>${T(o.total)}</span></div></div>
+<p class="warn">پرداخت را فقط پس از دیدن تراکنش واقعی در حساب بانکی تأیید کنید.</p><div class="row" style="justify-content:flex-start">${['payment_confirmed','payment_rejected','processing','shipped','delivered','cancelled'].map(s=>`<button class="btn" data-a="st" data-c="${o.code}" data-v="${s}">${ST[s]}</button>`).join('')}</div>
+<form data-form="ship" data-c="${o.code}"><label>شرکت حمل</label><input name="carrier" value="${e(o.carrier)}"><label>کد رهگیری</label><input name="trk" value="${e(o.trk)}"><label>یادداشت داخلی</label><textarea name="adm">${e(o.adm)}</textarea><button class="btn f" style="margin-top:10px">ذخیره</button></form><h3 style="font-weight:400;margin-top:16px">تاریخچه</h3>${tl(o)}`;
+const l=DB.orders.slice().reverse().filter(o=>!A.fo||[o.no,o.cust.name,o.cust.phone,o.status].join(' ').includes(A.fo));
+return`<input data-f="fo" placeholder="جستجو: شماره سفارش، نام، موبایل" value="${e(A.fo)}"><table style="margin-top:12px"><tr><th>سفارش</th><th>مشتری</th><th>وضعیت</th><th>مبلغ</th></tr>${l.map(o=>`<tr><td><a style="color:var(--g);cursor:pointer" data-a="sel" data-v="${o.code}">${e(o.no)}</a></td><td>${e(o.cust.name)}</td><td>${ST[o.status]}</td><td>${T(o.total)}</td></tr>`).join('')||'<tr><td colspan=4 class="note">سفارشی در این مرورگر ثبت نشده.</td></tr>'}</table>`};
+adm.prod=()=>{const x=A.edit;if(x!==null){const p=x?byId(x):{name:'',desc:'',price:'',disc:0,cat:'',stock:0,sku:'',variants:'',pub:true,feat:false,isnew:false};
+return`<form data-form="prod" data-id="${x||''}"><label>نام</label><input name="name" value="${e(p.name)}" required><label>توضیحات</label><textarea name="desc" rows="3">${e(p.desc)}</textarea><div class="two" style="gap:12px"><div><label>قیمت (تومان)</label><input name="price" type="number" min="1" value="${e(p.price)}" required></div><div><label>تخفیف ٪</label><input name="disc" type="number" min="0" max="90" value="${e(p.disc)}"></div><div><label>دسته</label><input name="cat" value="${e(p.cat)}"></div><div><label>موجودی</label><input name="stock" type="number" min="0" value="${e(p.stock)}"></div><div><label>SKU</label><input name="sku" value="${e(p.sku)}"></div><div><label>گزینه‌ها (با ویرگول)</label><input name="variants" value="${e(p.variants)}"></div></div>
+<label>تصویر</label><input type="file" name="img" accept="image/jpeg,image/png,image/webp"><label style="display:flex;gap:8px"><input type="checkbox" name="pub" style="width:auto" ${p.pub?'checked':''}> منتشر شود</label><label style="display:flex;gap:8px"><input type="checkbox" name="feat" style="width:auto" ${p.feat?'checked':''}> منتخب</label><label style="display:flex;gap:8px"><input type="checkbox" name="isnew" style="width:auto" ${p.isnew?'checked':''}> تازه</label><div class="err" id="e_p"></div><button class="btn f" style="margin-top:10px">ذخیره</button> <button type="button" class="btn" data-a="edit" data-v="">انصراف</button></form>`}
+return`<button class="btn f" data-a="edit" data-v="0">محصول جدید</button><table style="margin-top:12px"><tr><th>نام</th><th>قیمت</th><th>موجودی</th><th></th></tr>${DB.products.filter(p=>!p.archived).map(p=>`<tr><td>${e(p.name)}${p.pub?'':' <span class="note">(پیش‌نویس)</span>'}</td><td>${T(eff(p))}</td><td>${fa(p.stock)}</td><td><a style="color:var(--g);cursor:pointer" data-a="edit" data-v="${p.id}">ویرایش</a> · <a style="color:#d98a8a;cursor:pointer" data-a="del" data-v="${p.id}">${A.del==p.id?'تأیید حذف':'حذف'}</a></td></tr>`).join('')}</table>`};
+adm.set=()=>{const s=DB.set,I=(k,l,t='')=>`<label>${l}</label><input name="${k}" value="${e(s[k])}" ${t}>`,Tx=(k,l,v)=>`<label>${l}</label><textarea name="${k}" rows="3">${e(v)}</textarea>`;
+return`<form data-form="set">${I('name','نام فروشگاه')}${I('card','شماره کارت','inputmode="numeric"')}${I('holder','نام صاحب حساب')}${I('tg','تلگرام (بدون @)')}${I('ig','اینستاگرام (بدون @)')}${I('ei','ایتا (بدون @)')}${I('ship','هزینه ارسال (تومان)','type=number min=0')}${I('eta','زمان تخمینی تحویل (اختیاری)')}${I('ann','اعلان بالای سایت')}${I('hero','عنوان صفحه اصلی')}${I('heroSub','زیرعنوان')}${I('promise','وعده آماده‌سازی')}${I('foot','متن فوتر')}${Tx('about','درباره ما',s.about)}${Tx('contact','متن تماس',s.contact)}${Object.entries({privacy:'حریم خصوصی',terms:'شرایط خرید',shipping:'ارسال',returns:'مرجوعی',payment:'پرداخت'}).map(([k,v])=>Tx('pol_'+k,'سیاست: '+v,s.pol[k])).join('')}<button class="btn f" style="margin-top:12px">ذخیره تنظیمات</button></form><p class="note">رمز کارت، CVV2 یا رمز پویا را هرگز در سایت وارد نکنید.</p>`};
+/* ---------- router ---------- */
+function route(){const[a,b]=location.hash.slice(2).split('/');const pg=P[a]||P.home;$('#app').innerHTML=pg(b);document.title=(DB.set.name||'VELZAR')+' | اکسسوری مینیمال و لوکس';$('#nav').classList.remove('on');if(a==='shop')shopGrid();chrome();scrollTo(0,0)}
+function chrome(){const n=cartLines().reduce((s,l)=>s+l.q,0);$('#cb').textContent=`سبد (${fa(n)})`;$('#ft').textContent=DB.set.foot;const b=$('#bar');b.hidden=!DB.set.ann;b.textContent=DB.set.ann}
+const rer=()=>{const[a]=location.hash.slice(2).split('/');if(a==='admin'){const y=scrollY;route();scrollTo(0,y)}else route()};
+addEventListener('hashchange',route);
+document.addEventListener('input',x=>{const f=x.target.dataset.f;if(!f)return;if(f==='fo'){A.fo=x.target.value;const p=x.target.selectionStart;rer();const i=$('[data-f=fo]');i.focus();i.setSelectionRange(p,p)}else{S[f]=x.target.value;S.n=8;shopGrid()}});
+document.addEventListener('click',async x=>{const t=x.target.closest('[data-a]');if(!t)return;const d=t.dataset,a=d.a;
+if(a==='nav')$('#nav').classList.toggle('on');
+if(a==='cat'){S.cat=d.v;S.n=8;shopGrid()}
+if(a==='more'){S.n+=8;shopGrid()}
+if(a==='add'){const p=byId(d.id);let v='',q=1;if(d.pg){v=$('#vr')?$('#vr').value:'';q=Math.floor(+$('#qt').value)}if(!(q>=1)){toast('تعداد نامعتبر است');return}const k=p.id+'|'+v;if((CART[k]||0)+q>p.stock){toast('موجودی کافی نیست');return}CART[k]=(CART[k]||0)+q;save();chrome();toast('به سبد اضافه شد')}
+if(a==='qty'){const[id]=d.k.split('|'),q=(CART[d.k]||0)+ +d.d;if(q<1)delete CART[d.k];else if(q<=byId(id).stock)CART[d.k]=q;else toast('موجودی کافی نیست');save();route()}
+if(a==='rm'){delete CART[d.k];save();route()}
+if(a==='copy'){try{await navigator.clipboard.writeText(d.v);toast('کپی شد')}catch(_){toast('کپی نشد؛ دستی کپی کنید')}}
+if(a==='paid'){const o=DB.orders.find(z=>z.code===d.c);if(o&&o.status==='awaiting_payment'){setSt(o,'awaiting_receipt_review','مشتری','اعلام پرداخت توسط مشتری');save();route()}}
+if(a==='msg'){const o=DB.orders.find(z=>z.code===d.c),s=DB.set,tx=summary(o);try{await navigator.clipboard.writeText(tx)}catch(_){}const u={tg:`https://t.me/${s.tg}?text=${encodeURIComponent(tx)}`,ig:`https://ig.me/m/${s.ig}`,ei:`https://eitaa.com/${s.ei}`}[d.k];toast('خلاصه سفارش کپی شد؛ رسید را ضمیمه کنید');window.open(u,'_blank','noopener')}
+if(a==='tab'){A.tab=d.v;A.sel=null;A.edit=null;rer()}
+if(a==='logout'){sessionStorage.removeItem('vza');rer()}
+if(a==='sel'){A.sel=d.v||null;rer()}
+if(a==='st'){const o=DB.orders.find(z=>z.code===d.c);if(['cancelled','payment_rejected'].includes(o.status)&&!['cancelled','payment_rejected'].includes(d.v)){toast('سفارش لغو/ردشده را نمی‌توان بازگرداند');return}if(o.status!==d.v){setSt(o,d.v,'مدیر');save();toast('وضعیت به‌روز شد');rer()}}
+if(a==='edit'){A.edit=d.v===''?null:+d.v;rer()}
+if(a==='del'){const id=+d.v;if(A.del!==id){A.del=id;rer();return}const used=DB.orders.some(o=>o.items.some(i=>i.pid===id));if(used){const p=byId(id);p.pub=false;p.archived=true;toast('محصول در سفارش‌ها استفاده شده؛ بایگانی شد')}else DB.products=DB.products.filter(p=>p.id!==id);A.del=null;save();rer()}});
+const er=(id,m)=>{const n=$('#e_'+id);if(n)n.textContent=m};
+document.addEventListener('submit',async x=>{const f=x.target,k=f.dataset.form;if(!k)return;x.preventDefault();const d=Object.fromEntries(new FormData(f));
+if(k==='track'){const c=d.tc?.trim()||$('#tc').value.trim();location.hash='#/order/'+encodeURIComponent(c)}
+if(k==='order'){['name','phone','prov','city','addr','ok'].forEach(i=>er(i,''));let bad=0;const ph=en(d.phone||'').replace(/\s/g,''),po=en(d.post||'').trim();
+const chk=(i,c,m)=>{if(c){er(i,m);bad=1}};chk('name',!d.name.trim(),'نام را وارد کنید');chk('phone',!/^09\d{9}$/.test(ph),'شماره موبایل معتبر نیست (مثال: 09123456789)');chk('prov',!d.prov.trim(),'استان را وارد کنید');chk('city',!d.city.trim(),'شهر را وارد کنید');chk('addr',d.addr.trim().length<10,'آدرس کامل را وارد کنید');chk('post',po&&!/^\d{10}$/.test(po),'کد پستی باید ۱۰ رقم باشد');chk('ok',!$('#ok').checked,'پذیرش شرایط الزامی است');if(bad)return;
+const L=cartLines();if(!L.length||L.some(l=>l.q>l.p.stock)){toast('موجودی تغییر کرده؛ سبد را بررسی کنید');location.hash='#/cart';return}
+$('#sb').disabled=true;const sub=L.reduce((s,l)=>s+eff(l.p)*l.q,0),y=new Date().toISOString().slice(2,10).replace(/-/g,'');
+const o={code:rnd(12,'abcdefghjkmnpqrstuvwxyz23456789'),no:'VZ-'+y+'-'+rnd(4,'0123456789'),ts:Date.now(),status:'awaiting_payment',cust:{name:d.name.trim(),phone:ph,prov:d.prov.trim(),city:d.city.trim(),addr:d.addr.trim(),post:po,notes:d.notes.trim()},items:L.map(l=>({pid:l.p.id,name:l.p.name,v:l.v,qty:l.q,price:eff(l.p)})),sub,ship:ship(),total:sub+ship(),carrier:'',trk:'',adm:'',hist:[{s:'awaiting_payment',t:now(),by:'مشتری',note:'ثبت سفارش'}]};
+L.forEach(l=>l.p.stock-=l.q);DB.orders.push(o);CART={};save();location.hash='#/order/'+o.code}
+if(k==='login'){if(Date.now()<A.lock){er('pw','چند لحظه دیگر دوباره تلاش کنید');return}
+if(!DB.adm){if(d.pw.length<8){er('pw','حداقل ۸ کاراکتر');return}const s=rnd(16,'0123456789abcdef');DB.adm={s,h:await hash(d.pw,s)};save();sessionStorage.setItem('vza','1');rer();return}
+if(await hash(d.pw,DB.adm.s)===DB.adm.h){A.fails=0;sessionStorage.setItem('vza','1');rer()}else{if(++A.fails>=5){A.lock=Date.now()+30000;A.fails=0}er('pw','رمز اشتباه است')}}
+if(!authed())return;
+if(k==='ship'){const o=DB.orders.find(z=>z.code===f.dataset.c);Object.assign(o,{carrier:d.carrier.trim(),trk:d.trk.trim(),adm:d.adm.trim()});save();toast('ذخیره شد')}
+if(k==='set'){const s=DB.set;for(const[i,v]of Object.entries(d)){if(i.startsWith('pol_'))s.pol[i.slice(4)]=v;else s[i]=i==='ship'?Math.max(0,+v||0):v.trim().replace(/^@/,'')&&i.match(/^(tg|ig|ei)$/)?v.trim().replace(/^@/,''):v.trim()}save();chrome();toast('تنظیمات ذخیره شد')}
+if(k==='prod'){const id=+f.dataset.id,price=Math.round(+d.price),disc=Math.round(+d.disc||0),st=Math.round(+d.stock);
+if(!d.name.trim()||!(price>0)||disc<0||disc>90||!(st>=0)){er('p','نام، قیمت (>۰)، تخفیف (۰ تا ۹۰) و موجودی (≥۰) را درست وارد کنید');return}
+const p=id?byId(id):{id:Math.max(0,...DB.products.map(z=>z.id))+1,img:''};
+Object.assign(p,{name:d.name.trim(),desc:d.desc.trim(),price,disc,cat:d.cat.trim(),stock:st,sku:d.sku.trim(),variants:d.variants.trim(),pub:!!d.pub,feat:!!d.feat,isnew:!!d.isnew});
+const fl=d.img;if(fl&&fl.size){if(fl.size>4e6||!/^image\/(jpeg|png|webp)$/.test(fl.type)){er('p','فقط تصویر JPG/PNG/WebP تا ۴ مگابایت');return}
+p.img=await new Promise(r=>{const i=new Image();i.onload=()=>{const c=document.createElement('canvas'),s=Math.min(1,640/i.width);c.width=i.width*s;c.height=i.height*s;c.getContext('2d').drawImage(i,0,0,c.width,c.height);r(c.toDataURL('image/jpeg',.8))};i.src=URL.createObjectURL(fl)})}
+if(!id)DB.products.push(p);save();A.edit=null;toast('محصول ذخیره شد');rer()}});
+route();
+</script>
+</body>
+</html>
